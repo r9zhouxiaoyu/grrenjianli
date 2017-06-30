@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+/*Ñ­»·*/
+.loot{
+    animation-iteration-count:infinite  ;
+}
+
+.swiper-container{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.swiper-wrapper{
+    width: 100%;
+    height: 100%;
+}
+.jiantou{
+     width: 0.7rem;
+     cursor: pointer;
+     font-size: 0;
+     position: fixed;
+     left: 0.5rem;
+     bottom: 0.5rem;
+     margin-left:2.7rem;
+     z-index: 999;
+ }
+.dage{
+    width: 100%;
+    height: 100%;
+    background: url("../images/background.png")no-repeat;
+    background-size: 100% 100%;
+}
+.dage .li{
+     background-color: papayawhip;
+ }
+.dage1 .pic1{
+    width: 4.5rem;
+    margin: 1.3rem auto 0;
+    display: block
+}
+.dage1 .p1{
+    width: 5rem;
+    margin: 0.7rem 0 0 3.4rem;
+    font-size: 0.5rem;
+    color: gray;
+}
+.dage1 .p2{
+    width: 5rem;
+    margin: 0.7rem 0 0 2.5rem;
+    font-size: 0.5rem;
+    color: grey;
+}
+.dage1 .p3{
+     color: grey;
+     width: 5rem;
+     margin: 0.7rem 0 0 1.7rem;
+     font-size: 0.5rem;
+ }
+.dage1 .p4{
+    color: grey;
+    width: 5rem;
+    margin: 0.7rem 0 0 1.45rem;
+    font-size: 0.5rem;
+}
+.dage2 .pic{
+    width: 5.2rem;
+    display: block;
+    margin: 0.3rem 0 0 1rem;
+}
+.dage2 ul{
+    width: 100%;
+    height: 2.1rem;
+    background-color: pink;
+}
+.dage2 ul li{
+    width: 33.3%;
+    float: left;
+    color: white;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.dage2 .p1{
+    width: 5rem;
+    margin: 0.7rem 0 0 2rem;
+    font-size: 0.5rem;
+    color: gray;
+}
+.dage2 .p2{
+    width: 5rem;
+    margin: 0.7rem 0 0 1.7rem;
+    font-size: 0.5rem;
+    color: grey;
+}
+.dage2 .p3{
+    color: grey;
+    width: 5rem;
+    margin: 0.7rem 0 0 1.5rem;
+    font-size: 0.5rem;
+}
+.dage2 .p4{
+    color: grey;
+    width: 5rem;
+    margin: 0.7rem 0 0 1.5rem;
+    font-size: 0.5rem;
+}
+.dage3 .pic{
+    width: 5.2rem;
+    display: block;
+    margin: 0.3rem 0 0 1rem;
+}
+.dage3 ul{
+    width: 100%;
+    height: 2.1rem;
+    background-color: pink;
+}
+.dage3 ul li{
+    width: 33.3%;
+    float: left;
+    color: white;
+    font-size: 0.8rem;
+    text-align: center;
+}
+.dage3 .p1{
+    width: 5rem;
+    margin: 0.7rem 0 0 2.5rem;
+    font-size: 0.5rem;
+    color: gray;
+}
+.dage3 .p2{
+    width: 5rem;
+    margin: 0.7rem 0 0 2.5rem;
+    font-size: 0.5rem;
+    color: grey;
+}
+.dage3 .p3{
+    color: grey;
+    width: 5rem;
+    margin: 0.7rem 0 0 2.5rem;
+    font-size: 0.5rem;
+}
+.dage3 .p4{
+    color: grey;
+    width: 5rem;
+    margin: 0.7rem 0 0 2.5rem;
+    font-size: 0.5rem;
+}
+.dage4 .pic{
+    width: 5.2rem;
+    display: block;
+    margin: 0.3rem 0 0 1rem;
+}
+.dage4 ul{
+    width: 100%;
+    height: 2.1rem;
+    background-color: pink;
+}
+.dage4 ul li{
+    width: 33.3%;
+    float: left;
+    color: white;
+    font-size: 0.8rem;
+    text-align: center;
+}
+.dage4 .pic1{
+    width:30%;
+    float: left;
+    margin: 0.5rem 0  0 1rem ;
+}
+.dage4 .pic2{
+    width:30%;
+    float: left;
+    margin: 0.5rem 0 0 1rem;
+}
+.dage4 p{
+    overflow: hidden;
+    color: grey;
+    width: 4rem;
+    font-size: 0.4rem;
+    margin: 0.3rem 0 0 1rem;
+    display: block;
+}
+.dage5 .pic1{
+    width: 4.5rem;
+    margin: 1.3rem auto 0;
+    display: block
+}
+.dage5 .p1{
+    width: 6rem;
+    margin: 0.7rem 0 0 1rem;
+    font-size: 0.8rem;
+    color: gray;
+}
+.dage5 .p2{
+    width:7rem;
+    margin: 0.7rem 0 0 0.5rem;
+    font-size: 0.5rem;
+    color: grey;
+}
+.dage5 .p3{
+    color: grey;
+    width: 5rem;
+    margin: 0.7rem auto 0;
+    font-size: 0.5rem;
+}
+.dage5 .p4{
+    color: grey;
+    width: 7rem;
+    margin: 0.7rem auto 0;
+    font-size: 0.5rem;
+}
+.yinyue{
+    display: block;
+    width: 0.44rem;
+    height: 0.44rem;
+    background: url("../images/music.png");
+    background-size: 0.44rem 0.44rem;
+    position: fixed;
+    top:0.2rem;
+    right: 0.2rem;
+    z-index: 999;
+}
+.yilei{
+    animation: yinyue 1s linear infinite;
+}
+@keyframes yinyue {
+    0%{transform: rotate(0deg)}
+    100%{transform: rotate(360deg)}
+}
+
